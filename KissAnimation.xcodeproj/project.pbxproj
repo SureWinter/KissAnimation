@@ -15,6 +15,14 @@
 		7B7280B11D101A0000F1BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280AF1D101A0000F1BCA0 /* LaunchScreen.storyboard */; };
 		7B7280BC1D101A0000F1BCA0 /* KissAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280BB1D101A0000F1BCA0 /* KissAnimationTests.m */; };
 		7B7280C71D101A0000F1BCA0 /* KissAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280C61D101A0000F1BCA0 /* KissAnimationUITests.m */; };
+		7B7280DD1D101AB400F1BCA0 /* kiss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280D51D101AB400F1BCA0 /* kiss1.png */; };
+		7B7280DE1D101AB400F1BCA0 /* kiss2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280D61D101AB400F1BCA0 /* kiss2.png */; };
+		7B7280DF1D101AB400F1BCA0 /* kiss3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280D71D101AB400F1BCA0 /* kiss3.png */; };
+		7B7280E01D101AB400F1BCA0 /* kiss4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280D81D101AB400F1BCA0 /* kiss4.png */; };
+		7B7280E11D101AB400F1BCA0 /* kiss5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280D91D101AB400F1BCA0 /* kiss5.png */; };
+		7B7280E21D101AB400F1BCA0 /* kiss6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280DA1D101AB400F1BCA0 /* kiss6.png */; };
+		7B7280E31D101AB400F1BCA0 /* WASKissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280DC1D101AB400F1BCA0 /* WASKissAnimation.m */; };
+		7B7280E51D101BA700F1BCA0 /* qqqq.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280E41D101BA700F1BCA0 /* qqqq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		7B7280C21D101A0000F1BCA0 /* KissAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7280C61D101A0000F1BCA0 /* KissAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissAnimationUITests.m; sourceTree = "<group>"; };
 		7B7280C81D101A0000F1BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7280D51D101AB400F1BCA0 /* kiss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss1.png; sourceTree = "<group>"; };
+		7B7280D61D101AB400F1BCA0 /* kiss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss2.png; sourceTree = "<group>"; };
+		7B7280D71D101AB400F1BCA0 /* kiss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss3.png; sourceTree = "<group>"; };
+		7B7280D81D101AB400F1BCA0 /* kiss4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss4.png; sourceTree = "<group>"; };
+		7B7280D91D101AB400F1BCA0 /* kiss5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss5.png; sourceTree = "<group>"; };
+		7B7280DA1D101AB400F1BCA0 /* kiss6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss6.png; sourceTree = "<group>"; };
+		7B7280DB1D101AB400F1BCA0 /* WASKissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASKissAnimation.h; sourceTree = "<group>"; };
+		7B7280DC1D101AB400F1BCA0 /* WASKissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASKissAnimation.m; sourceTree = "<group>"; };
+		7B7280E41D101BA700F1BCA0 /* qqqq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqqq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		7B7280A01D101A0000F1BCA0 /* KissAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7B7280D41D101AB400F1BCA0 /* WASKissAnimation */,
 				7B7280A41D101A0000F1BCA0 /* AppDelegate.h */,
 				7B7280A51D101A0000F1BCA0 /* AppDelegate.m */,
 				7B7280A71D101A0000F1BCA0 /* ViewController.h */,
@@ -138,6 +156,22 @@
 				7B7280C81D101A0000F1BCA0 /* Info.plist */,
 			);
 			path = KissAnimationUITests;
+			sourceTree = "<group>";
+		};
+		7B7280D41D101AB400F1BCA0 /* WASKissAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7B7280E41D101BA700F1BCA0 /* qqqq.png */,
+				7B7280D51D101AB400F1BCA0 /* kiss1.png */,
+				7B7280D61D101AB400F1BCA0 /* kiss2.png */,
+				7B7280D71D101AB400F1BCA0 /* kiss3.png */,
+				7B7280D81D101AB400F1BCA0 /* kiss4.png */,
+				7B7280D91D101AB400F1BCA0 /* kiss5.png */,
+				7B7280DA1D101AB400F1BCA0 /* kiss6.png */,
+				7B7280DB1D101AB400F1BCA0 /* WASKissAnimation.h */,
+				7B7280DC1D101AB400F1BCA0 /* WASKissAnimation.m */,
+			);
+			path = WASKissAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7280E01D101AB400F1BCA0 /* kiss4.png in Resources */,
+				7B7280E51D101BA700F1BCA0 /* qqqq.png in Resources */,
+				7B7280DE1D101AB400F1BCA0 /* kiss2.png in Resources */,
+				7B7280DF1D101AB400F1BCA0 /* kiss3.png in Resources */,
+				7B7280E11D101AB400F1BCA0 /* kiss5.png in Resources */,
+				7B7280E21D101AB400F1BCA0 /* kiss6.png in Resources */,
 				7B7280B11D101A0000F1BCA0 /* LaunchScreen.storyboard in Resources */,
 				7B7280AE1D101A0000F1BCA0 /* Assets.xcassets in Resources */,
 				7B7280AC1D101A0000F1BCA0 /* Main.storyboard in Resources */,
+				7B7280DD1D101AB400F1BCA0 /* kiss1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +313,7 @@
 			files = (
 				7B7280A91D101A0000F1BCA0 /* ViewController.m in Sources */,
 				7B7280A61D101A0000F1BCA0 /* AppDelegate.m in Sources */,
+				7B7280E31D101AB400F1BCA0 /* WASKissAnimation.m in Sources */,
 				7B7280A31D101A0000F1BCA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +538,7 @@
 				7B7280CD1D101A0000F1BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B7280CE1D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				7B7280D01D101A0000F1BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B7280D11D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				7B7280D31D101A0000F1BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
