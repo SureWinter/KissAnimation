@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B7280A31D101A0000F1BCA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280A21D101A0000F1BCA0 /* main.m */; };
+		7B7280A61D101A0000F1BCA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280A51D101A0000F1BCA0 /* AppDelegate.m */; };
+		7B7280A91D101A0000F1BCA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280A81D101A0000F1BCA0 /* ViewController.m */; };
+		7B7280AC1D101A0000F1BCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280AA1D101A0000F1BCA0 /* Main.storyboard */; };
+		7B7280AE1D101A0000F1BCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280AD1D101A0000F1BCA0 /* Assets.xcassets */; };
+		7B7280B11D101A0000F1BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7280AF1D101A0000F1BCA0 /* LaunchScreen.storyboard */; };
+		7B7280BC1D101A0000F1BCA0 /* KissAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280BB1D101A0000F1BCA0 /* KissAnimationTests.m */; };
+		7B7280C71D101A0000F1BCA0 /* KissAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7280C61D101A0000F1BCA0 /* KissAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B7280B81D101A0000F1BCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B7280961D101A0000F1BCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B72809D1D101A0000F1BCA0;
+			remoteInfo = KissAnimation;
+		};
+		7B7280C31D101A0000F1BCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B7280961D101A0000F1BCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B72809D1D101A0000F1BCA0;
+			remoteInfo = KissAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B72809E1D101A0000F1BCA0 /* KissAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KissAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7280A21D101A0000F1BCA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B7280A41D101A0000F1BCA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B7280A51D101A0000F1BCA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B7280A71D101A0000F1BCA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B7280A81D101A0000F1BCA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B7280AB1D101A0000F1BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B7280AD1D101A0000F1BCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B7280B01D101A0000F1BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B7280B21D101A0000F1BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7280B71D101A0000F1BCA0 /* KissAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7280BB1D101A0000F1BCA0 /* KissAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissAnimationTests.m; sourceTree = "<group>"; };
+		7B7280BD1D101A0000F1BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7280C21D101A0000F1BCA0 /* KissAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7280C61D101A0000F1BCA0 /* KissAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissAnimationUITests.m; sourceTree = "<group>"; };
+		7B7280C81D101A0000F1BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B72809B1D101A0000F1BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280B41D101A0000F1BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280BF1D101A0000F1BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B7280951D101A0000F1BCA0 = {
+			isa = PBXGroup;
+			children = (
+				7B7280A01D101A0000F1BCA0 /* KissAnimation */,
+				7B7280BA1D101A0000F1BCA0 /* KissAnimationTests */,
+				7B7280C51D101A0000F1BCA0 /* KissAnimationUITests */,
+				7B72809F1D101A0000F1BCA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B72809F1D101A0000F1BCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B72809E1D101A0000F1BCA0 /* KissAnimation.app */,
+				7B7280B71D101A0000F1BCA0 /* KissAnimationTests.xctest */,
+				7B7280C21D101A0000F1BCA0 /* KissAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B7280A01D101A0000F1BCA0 /* KissAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7B7280A41D101A0000F1BCA0 /* AppDelegate.h */,
+				7B7280A51D101A0000F1BCA0 /* AppDelegate.m */,
+				7B7280A71D101A0000F1BCA0 /* ViewController.h */,
+				7B7280A81D101A0000F1BCA0 /* ViewController.m */,
+				7B7280AA1D101A0000F1BCA0 /* Main.storyboard */,
+				7B7280AD1D101A0000F1BCA0 /* Assets.xcassets */,
+				7B7280AF1D101A0000F1BCA0 /* LaunchScreen.storyboard */,
+				7B7280B21D101A0000F1BCA0 /* Info.plist */,
+				7B7280A11D101A0000F1BCA0 /* Supporting Files */,
+			);
+			path = KissAnimation;
+			sourceTree = "<group>";
+		};
+		7B7280A11D101A0000F1BCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7280A21D101A0000F1BCA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B7280BA1D101A0000F1BCA0 /* KissAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B7280BB1D101A0000F1BCA0 /* KissAnimationTests.m */,
+				7B7280BD1D101A0000F1BCA0 /* Info.plist */,
+			);
+			path = KissAnimationTests;
+			sourceTree = "<group>";
+		};
+		7B7280C51D101A0000F1BCA0 /* KissAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B7280C61D101A0000F1BCA0 /* KissAnimationUITests.m */,
+				7B7280C81D101A0000F1BCA0 /* Info.plist */,
+			);
+			path = KissAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B72809D1D101A0000F1BCA0 /* KissAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7280CB1D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimation" */;
+			buildPhases = (
+				7B72809A1D101A0000F1BCA0 /* Sources */,
+				7B72809B1D101A0000F1BCA0 /* Frameworks */,
+				7B72809C1D101A0000F1BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissAnimation;
+			productName = KissAnimation;
+			productReference = 7B72809E1D101A0000F1BCA0 /* KissAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B7280B61D101A0000F1BCA0 /* KissAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7280CE1D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationTests" */;
+			buildPhases = (
+				7B7280B31D101A0000F1BCA0 /* Sources */,
+				7B7280B41D101A0000F1BCA0 /* Frameworks */,
+				7B7280B51D101A0000F1BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B7280B91D101A0000F1BCA0 /* PBXTargetDependency */,
+			);
+			name = KissAnimationTests;
+			productName = KissAnimationTests;
+			productReference = 7B7280B71D101A0000F1BCA0 /* KissAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B7280C11D101A0000F1BCA0 /* KissAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7280D11D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationUITests" */;
+			buildPhases = (
+				7B7280BE1D101A0000F1BCA0 /* Sources */,
+				7B7280BF1D101A0000F1BCA0 /* Frameworks */,
+				7B7280C01D101A0000F1BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B7280C41D101A0000F1BCA0 /* PBXTargetDependency */,
+			);
+			name = KissAnimationUITests;
+			productName = KissAnimationUITests;
+			productReference = 7B7280C21D101A0000F1BCA0 /* KissAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B7280961D101A0000F1BCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangshuo;
+				TargetAttributes = {
+					7B72809D1D101A0000F1BCA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7B7280B61D101A0000F1BCA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B72809D1D101A0000F1BCA0;
+					};
+					7B7280C11D101A0000F1BCA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B72809D1D101A0000F1BCA0;
+					};
+				};
+			};
+			buildConfigurationList = 7B7280991D101A0000F1BCA0 /* Build configuration list for PBXProject "KissAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B7280951D101A0000F1BCA0;
+			productRefGroup = 7B72809F1D101A0000F1BCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B72809D1D101A0000F1BCA0 /* KissAnimation */,
+				7B7280B61D101A0000F1BCA0 /* KissAnimationTests */,
+				7B7280C11D101A0000F1BCA0 /* KissAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B72809C1D101A0000F1BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7280B11D101A0000F1BCA0 /* LaunchScreen.storyboard in Resources */,
+				7B7280AE1D101A0000F1BCA0 /* Assets.xcassets in Resources */,
+				7B7280AC1D101A0000F1BCA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280B51D101A0000F1BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280C01D101A0000F1BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B72809A1D101A0000F1BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7280A91D101A0000F1BCA0 /* ViewController.m in Sources */,
+				7B7280A61D101A0000F1BCA0 /* AppDelegate.m in Sources */,
+				7B7280A31D101A0000F1BCA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280B31D101A0000F1BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7280BC1D101A0000F1BCA0 /* KissAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7280BE1D101A0000F1BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7280C71D101A0000F1BCA0 /* KissAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B7280B91D101A0000F1BCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B72809D1D101A0000F1BCA0 /* KissAnimation */;
+			targetProxy = 7B7280B81D101A0000F1BCA0 /* PBXContainerItemProxy */;
+		};
+		7B7280C41D101A0000F1BCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B72809D1D101A0000F1BCA0 /* KissAnimation */;
+			targetProxy = 7B7280C31D101A0000F1BCA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B7280AA1D101A0000F1BCA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B7280AB1D101A0000F1BCA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B7280AF1D101A0000F1BCA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B7280B01D101A0000F1BCA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B7280C91D101A0000F1BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B7280CA1D101A0000F1BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B7280CC1D101A0000F1BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KissAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B7280CD1D101A0000F1BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KissAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B7280CF1D101A0000F1BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KissAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KissAnimation.app/KissAnimation";
+			};
+			name = Debug;
+		};
+		7B7280D01D101A0000F1BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KissAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KissAnimation.app/KissAnimation";
+			};
+			name = Release;
+		};
+		7B7280D21D101A0000F1BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KissAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KissAnimation;
+			};
+			name = Debug;
+		};
+		7B7280D31D101A0000F1BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KissAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.KissAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KissAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B7280991D101A0000F1BCA0 /* Build configuration list for PBXProject "KissAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7280C91D101A0000F1BCA0 /* Debug */,
+				7B7280CA1D101A0000F1BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7280CB1D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7280CC1D101A0000F1BCA0 /* Debug */,
+				7B7280CD1D101A0000F1BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B7280CE1D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7280CF1D101A0000F1BCA0 /* Debug */,
+				7B7280D01D101A0000F1BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B7280D11D101A0000F1BCA0 /* Build configuration list for PBXNativeTarget "KissAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7280D21D101A0000F1BCA0 /* Debug */,
+				7B7280D31D101A0000F1BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B7280961D101A0000F1BCA0 /* Project object */;
+}
